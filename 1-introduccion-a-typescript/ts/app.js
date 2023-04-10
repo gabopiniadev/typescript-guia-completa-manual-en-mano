@@ -1,13 +1,28 @@
 "use strict";
-const msgJS = 'Hola Mundo'; //Esto es formato JavaScript
-const msgTS = 'Hola Mundo'; //Esto es formato TypeScript
-const heroe = {
-    name: 'IronMan',
-    edad: 45
-};
-heroe.edad = 20;
-console.log(heroe.edad);
 (() => {
-    const a = 10;
-    console.log(a);
+    // Tipos
+    const batman = 'Bruce';
+    const superman = 'Clark';
+    const existe = false;
+    // Tuplas
+    const parejaHeroes;
+    const villano = ['Lex Lutor', 5, true];
+    // Arreglos
+    const aliados = ['Mujer Maravilla', 'Acuaman', 'San', 'Flash'];
+    //Enumeraciones
+    const fuerzaFlash = 5;
+    const fuerzaSuperman = 100;
+    const fuerzaBatman = 1;
+    const fuerzaAcuaman = 0;
+    // Retorno de funciones
+    function activar_batiseñal() {
+        return 'activada';
+    }
+    function pedir_ayuda() {
+        console.log('Auxilio!!!');
+    }
+    // Aserciones de Tipo
+    const poder = '100';
+    const largoDelPoder = poder.length;
+    console.log(largoDelPoder);
 })();
